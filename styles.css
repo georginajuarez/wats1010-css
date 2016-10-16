@@ -1,6 +1,89 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+body {
+  background-image: url(images/Xanadu_on_Map_of_Asia.JPG);
+  background-size: cover;
+  text-align: center;
+  font-family: "Ariel Black", Gadget, sans-serif;
+}
 
-h1 {
-    color: green;
+header.page-header {
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgba(32, 178, 170, .3);
+  padding: .5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.page-header h1 {
+  margin-bottom: 0;
+}
+
+.page-header p {
+  margin-top: 0;
+}
+
+.page-header small {
+  font-size: medium;
+}
+
+aside.more-info {
+  color: whitesmoke;
+  /*background-color: coral;*/
+}
+
+img {
+  border: inset;
+  border-width: 5px;
+  height: 300px;
+  width: auto;
+}
+
+ul.info-links {
+  list-style-type: none;
+  marigin: 0;
+  padding: 0;
+}
+
+ul.info-links li {
+  display: inline;
+  padding: .2em 1em;
+}
+
+ul.social-links {
+  list-style-type: none;
+  marigin: 0;
+  padding: 0;
+}
+
+ul.social-links li {
+  display: inline;
+  padding: .2em 1em;
+}
+
+ section#content {
+   color: whitesmoke;
+  /*background-color: orange;*/
+}
+
+.poem {
+  list-style-type: none;
+  line-height: 1.75;
+  font-size: 1.25em;
+}
+
+.poem li:first-letter {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+footer.page-footer {
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgba(32, 178, 170, .3);
+}
+
+footer li {
+  list-style-type: none;
 }
